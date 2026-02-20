@@ -24,8 +24,8 @@ A Slack Incoming Webhook is configured and stored securely as a GitHub repositor
 
 # Continuous Deployment
 The GitHub repository is connected to Netlify using the “Import from Git” option. Auto-deploy is enabled on commits to the main branch. Every successful push triggers automatic build and deployment.
+<img width="1401" height="754" alt="image" src="https://github.com/user-attachments/assets/d8ba9d64-6fe2-4e50-bceb-d3b646e35101" />
 
-<img width="1872" height="881" alt="Screenshot 2026-02-20 192412" src="https://github.com/user-attachments/assets/28f8ae00-a1a3-431d-8e71-98539fa8af5f" />
 
 # Testing Automation
 To verify automation, changes are made to index.html and pushed to the main branch. The CI pipeline runs automatically, Slack receives a notification, Netlify triggers a deployment, and the live website updates accordingly.
