@@ -1,7 +1,7 @@
 # DevOps_webapp
 End-to-End DevOps Automation Using CI/CD, ChatOps & Static Deployment
 
-Overview
+#Overview
 This project demonstrates a complete DevOps automation workflow using GitHub Actions for Continuous Integration (CI), Slack for ChatOps notifications, and Netlify for Continuous Deployment (CD). The objective is to automate build, notification, and deployment of a static web application whenever code is pushed to the main branch.
 
 Technologies Used
